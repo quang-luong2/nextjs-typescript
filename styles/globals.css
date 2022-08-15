@@ -15,12 +15,21 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+input {
+  outline: none;
+  height: 31px;
+  width: 250px;
+}
+
+button {
+    height: 31px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.layout {
+  padding-top: 20px;
+  padding-left: 20px;
 }
